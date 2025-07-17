@@ -1,1 +1,1 @@
-Хранилище скриптов для [GitHub Pages]([https://pages.github.com/](https://github.com/KSP-KOS/KOS))
+Хранилище для скриптов [KOS]https://github.com/KSP-KOS/KOS)
