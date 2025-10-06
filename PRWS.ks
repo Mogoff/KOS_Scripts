@@ -1,5 +1,5 @@
 //GUI SCRIPT BASED ON A-EVAN-S's AND SCARECR-W's SCRIPT - " https://github.com/scarecr-w/kOS-Guided-Missile-System/blob/master/boot/MISSILE_SYSTEM.ks "
-
+//THAT'S GUI FOR WEAPONS SYSTEM 
 @lazyGlobal on.
 //wait 2.
 set terminal:width to 125.
@@ -174,5 +174,6 @@ FUNCTION FIRE_MISSILE {
         PRINT "FIRING FAILED".
     }
 }
+
 
 main().
