@@ -27,7 +27,7 @@ until false {
 
     set TargetDirection to LOS_Vector:normalized.
     set TPN to vcrs(RelativeVelocity:normalized, vcrs(TargetDirection:normalized, RelativeVelocity:normalized)).
-    // FIRING SOLUTION DECIDING
+    // FIRING SOLUTION CRITERIA
 
     set Missile_DeltaV to SHIP:STAGEDELTAV(SHIP:STAGENUM):CURRENT+SHIP:STAGEDELTAV(SHIP:STAGENUM-1):CURRENT+SHIP:STAGEDELTAV(SHIP:STAGENUM-2):VACUUM+SHIP:STAGEDELTAV(SHIP:STAGENUM-3):VACUUM.
 
@@ -137,3 +137,4 @@ until false {
     //-----------------------------
     wait 0.
 }
+
